@@ -3,6 +3,7 @@
 - Colab Notebook: https://colab.research.google.com/drive/134F5mplNblAZhYLu06emr0GRXTbCGn0-?usp=sharing
 - Base Repo: https://github.com/pangsg/DM-GCN
 - Glove Word Embedding: https://www.kaggle.com/datasets/takuok/glove840b300dtxt
+- Dataset: https://github.com/songyouwei/ABSA-PyTorch/tree/master/datasets/acl-14-short-data
 
 ### Changes
 Change paths in line 93 and 110; remove `'/home/yanzehao/'+`
@@ -20,5 +21,3 @@ Change paths in line 93 and 110; remove `'/home/yanzehao/'+`
  pages={49--54},
  year={2014}
 }
-
-url: https://github.com/songyouwei/ABSA-PyTorch/tree/master/datasets/acl-14-short-data
