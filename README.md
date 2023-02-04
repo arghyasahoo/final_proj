@@ -1,18 +1,35 @@
 # Twitter Sentiment Analysis with GNN
 
-- Colab Notebook: https://colab.research.google.com/drive/134F5mplNblAZhYLu06emr0GRXTbCGn0-?usp=sharing
-- Base Repo: https://github.com/pangsg/DM-GCN
-- Glove Word Embedding: https://www.kaggle.com/datasets/takuok/glove840b300dtxt
-- Dataset: https://github.com/songyouwei/ABSA-PyTorch/tree/master/datasets/acl-14-short-data
-- Potential GNN from Scratch: https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial7/GNN_overview.html
+## Quick Links
 
-### Changes
-Change paths in line 93 and 110; remove `'/home/yanzehao/'+`
+- Colab Notebook: 
+    - [DM-GCN]: https://colab.research.google.com/drive/134F5mplNblAZhYLu06emr0GRXTbCGn0-?usp=sharing
+    - [BERT]: https://colab.research.google.com/drive/1NOTzl9IiNaVsJ-06VrayGPON44VP0L2L?usp=sharing
+- References:
+    - [DM-GNN Base Repo]: https://github.com/pangsg/DM-GCN
+    - [Glove Word Embedding]: https://www.kaggle.com/datasets/takuok/glove840b300dtxt
+- Dataset: 
+    - [Dataset used in DM-GCN]: https://github.com/songyouwei/ABSA-PyTorch/tree/master/datasets/acl-14-short-data
+
+- Future References:
+    - Build GNN from Scratch: https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial7/GNN_overview.html
+
+
+## Changes
+
+- [DM-GCN Codebase]:
+    - Change paths in line 93 and 110; remove `'/home/yanzehao/'+`
+
 
 ## Results
-- test_loss: 18.637226104736328
-- test_acc: 72.24431818181819
-- f1_score: 0.6996091418460807
+
+- DM-GCN:
+  - test_loss: 18.637226104736328
+  - test_acc: 72.24431818181819
+  - f1_score: 0.6996091418460807
+
+
+___
 
 ### Dataset Citation
 @inproceedings{dong2014adaptive,
